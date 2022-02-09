@@ -1,0 +1,11 @@
+print('***Biggest of two numbers***')
+a=int(input('Enter a value :'))
+b=int(input('Enter b value :'))
+if(a>b):
+    print('{0} is big'.format(a))
+
+elif(a<b):
+    print('{0} is big'.format(b))
+
+else:
+     print('{0}={1}'.format(a,b))
